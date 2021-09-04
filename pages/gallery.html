@@ -84,8 +84,9 @@
       </h1>
 
       <p class="gallery-social-p p-1 pb-3">
-        To keep up to date with all my latest projects you can follow me on
-        social media. Use the links in the tab on the right of the screen!
+        To keep up to date with my current sales & latest projects you can
+        follow me on social media. Use the links in the tab on the right of the
+        screen!
       </p>
       <p class="p-5 px-0 gallery-intro">
         Aswell as the featured projects on my homepage, here are some of the
@@ -100,14 +101,8 @@
           />
         </div>
         <div class="col-lg-8 pt-4 p-2">
-          <button
-            type="button"
-            class="modal-btn align-self-lg-start"
-            data-bs-toggle="modal"
-            data-bs-target="#wreathModal"
-          >
-            <h2 class="p-1">Seasonal Wreaths</h2>
-          </button>
+          <h2 class="p-1">Seasonal Wreaths</h2>
+
           <!-- MODAL -->
           <div
             class="modal fade"
@@ -130,25 +125,66 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <img
-                    src="../img/gallery/reeve-pretty.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/gallery/reeve-autumn.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/gallery/wreath-xmas.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
+                  <!-- carousel start -->
+                  <div
+                    id="wreathCarouselControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="../img/gallery/reeve-pretty.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/gallery/reeve-autumn.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/gallery/wreath-xmas.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#wreathCarouselControls"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#wreathCarouselControls"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- carousel end -->
                 </div>
               </div>
             </div>
           </div>
+          <!-- MODAL END -->
           <p class="p-1">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
             reprehenderit error saepe sapiente accusamus repellat neque incidunt
@@ -161,6 +197,14 @@
             reprehenderit error saepe sapiente accusamus repellat neque incidunt
             facere reiciendis quae.
           </p>
+          <button
+            type="button"
+            class="modal-btn justify-self-center m-2"
+            data-bs-toggle="modal"
+            data-bs-target="#wreathModal"
+          >
+            View More
+          </button>
         </div>
       </div>
       <div class="row p-2 py-5 d-flex">
@@ -172,14 +216,8 @@
           />
         </div>
         <div class="col-lg-8 pt-4 order-lg-0 d-flex flex-column">
-          <button
-            type="button"
-            class="modal-btn align-self-lg-end"
-            data-bs-toggle="modal"
-            data-bs-target="#wall-artModal"
-          >
-            <h2 class="p-1">3D Name Wall Art</h2>
-          </button>
+          <h2 class="p-1">3D Name Wall Art</h2>
+
           <!-- MODAL -->
           <div
             class="modal fade"
@@ -202,25 +240,66 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <img
-                    src="../img/gallery/name-dad.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/gallery/name-boys.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/projects/children-name.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
+                  <!-- carousel start -->
+                  <div
+                    id="nameCarouselControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="../img/gallery/name-dad.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/gallery/name-boys.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/projects/children-name.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#nameCarouselControls"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#nameCarouselControls"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- carousel end -->
                 </div>
               </div>
             </div>
           </div>
+          <!-- MODAL END --->
           <p class="p-1 pb-4">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
             reprehenderit error saepe sapiente accusamus repellat neque incidunt
@@ -234,6 +313,14 @@
             reprehenderit error saepe sapiente accusamus repellat neque incidunt
             facere reiciendis quae.
           </p>
+          <button
+            type="button"
+            class="modal-btn align-self-lg-end m-2"
+            data-bs-toggle="modal"
+            data-bs-target="#wall-artModal"
+          >
+            View More
+          </button>
         </div>
       </div>
       <div class="row p-3 py-5">
@@ -245,14 +332,8 @@
           />
         </div>
         <div class="col-lg-8 p-3 pt-4">
-          <button
-            type="button"
-            class="modal-btn"
-            data-bs-toggle="modal"
-            data-bs-target="#furnitureModal"
-          >
-            <h2 class="p-1">Furniture Upcycle</h2>
-          </button>
+          <h2 class="p-1">Furniture Upcycle</h2>
+
           <!-- MODAL -->
           <div
             class="modal fade"
@@ -275,21 +356,61 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <img
-                    src="../img/gallery/bedside2.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/gallery/lamp.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/projects/bedbox2-after.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
+                  <!-- carousel start -->
+                  <div
+                    id="furnitureCarouselControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="../img/gallery/bedside2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/gallery/lamp.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/projects/bedbox2-after.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#furnitureCarouselControls"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#furnitureCarouselControls"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- carousel end -->
                 </div>
               </div>
             </div>
@@ -306,6 +427,14 @@
             reprehenderit error saepe sapiente accusamus repellat neque incidunt
             facere reiciendis quae.
           </p>
+          <button
+            type="button"
+            class="modal-btn m-2"
+            data-bs-toggle="modal"
+            data-bs-target="#furnitureModal"
+          >
+            View More
+          </button>
         </div>
       </div>
       <div class="row p-2 d-flex py-5">
@@ -317,14 +446,8 @@
           />
         </div>
         <div class="col-lg-8 pt-4 order-lg-0 d-flex flex-column">
-          <button
-            type="button"
-            class="modal-btn align-self-lg-end"
-            data-bs-toggle="modal"
-            data-bs-target="#cardsModal"
-          >
-            <h2 class="p-1 text-lg-end">Unique Cards & Gifts</h2>
-          </button>
+          <h2 class="p-1 text-lg-end">Unique Cards & Gifts</h2>
+
           <!-- MODAL -->
           <div
             class="modal fade"
@@ -347,21 +470,62 @@
                   ></button>
                 </div>
                 <div class="modal-body">
-                  <img
-                    src="../img/gallery/card3.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/gallery/card4.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
-                  <img
-                    src="../img/gallery/gift2.jpg"
-                    alt=""
-                    class="w-100 rounded"
-                  />
+                  <!-- carousel start -->
+                  <div
+                    id="cardsCarouselControls"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="../img/gallery/card3.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/gallery/card4.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          src="../img/gallery/gift2.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#cardsCarouselControls"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#cardsCarouselControls"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                  <!-- carousel end -->
                 </div>
               </div>
             </div>
@@ -379,13 +543,21 @@
             reprehenderit error saepe sapiente accusamus repellat neque incidunt
             facere reiciendis quae.
           </p>
+          <button
+            type="button"
+            class="modal-btn align-self-lg-end m-2"
+            data-bs-toggle="modal"
+            data-bs-target="#cardsModal"
+          >
+            View More
+          </button>
         </div>
       </div>
     </section>
 
     <div class="jumbo d-flex justify-content-center align-items-center p-3">
       <p>Interested in what I currently have for sale?</p>
-      <a href="#" class="m-4 btn">Get In Touch</a>
+      <a href="contact.html" class="m-4 btn">Get In Touch</a>
     </div>
 
     <footer id="footer">

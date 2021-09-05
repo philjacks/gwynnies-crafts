@@ -381,6 +381,25 @@ h3 {
   height: 10rem;
 }
 
+.location {
+  display: flex;
+}
+
+#map {
+  width: 50vw;
+  height: 50vh;
+}
+
+.address {
+  width: 50vw;
+  height: 50vh;
+  background-color: #ff8fab;
+}
+
+.address p {
+  color: white !important;
+}
+
 /* =====================
           THANKS
   ======================== */
@@ -530,6 +549,20 @@ h3 {
 
   .project-compare {
     flex-direction: column;
+  }
+
+  /* =====================
+          CONTACT
+  ======================== */
+
+  .location {
+    flex-direction: column;
+  }
+  #map {
+    width: 100%;
+  }
+  .address {
+    width: 100%;
   }
 }
 

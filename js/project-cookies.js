@@ -1,4 +1,4 @@
-// COOKIES
+// PROJECT COOKIES - SEPERATE DUE TO FILE PATH ISSUES
 window.cookieconsent.initialise({
   palette: {
     popup: {
@@ -12,6 +12,6 @@ window.cookieconsent.initialise({
   },
   theme: "edgeless",
   content: {
-    href: "../pages/docs/privacy.html"
+    href: "../docs/privacy.html"
   }
 });
